@@ -20,5 +20,5 @@ jobs:
           aws-region: 'eu-north-1'  # change to your bucket's region
       - name: Upload files to S3
         run:
-          aws s3 sync ./local-folder s3://mysummerd-bucket --acl public-read
+          aws s3 sync ./local-folder s3://mysummerd-bucket
 
